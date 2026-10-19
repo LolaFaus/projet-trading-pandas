@@ -26,19 +26,32 @@ project/
 └── data/Amazon.csv  les cours
 ```
 
+Installation, une fois le dépôt cloné :
+
+```bash
+pip install -r requirements.txt
+jupyter lab
+```
+
 Copiez `projet.ipynb` en `groupe-N.ipynb` (N = votre numéro de groupe), ouvrez-le et suivez-le dans l'ordre : échauffement (~30 min), prise en main du simulateur, stratégie (~1h).
 
 ## Le rendu : via git, uniquement
 
-Le rendu, c'est `project/groupe-N.ipynb` complété, et rien d'autre. Pas de mail, pas de clé USB.
+# ⚠️ **Votre notebook doit s'appeler `groupe-N.ipynb`** ⚠️
+
+# **(N = votre numéro de groupe, ex. `groupe-3.ipynb`)**
+
+Un notebook qui s'appelle autrement (`projet.ipynb`, `groupe3.ipynb`, `trading.ipynb`…) est **ignoré par git et ne sera pas corrigé**.
+
+Le rendu, c'est `groupe-N.ipynb` complété, et rien d'autre. Pas de mail, pas de clé USB.
 
 1. une personne par équipe *forke* ce dépôt sur GitHub et le clone
-2. copiez `project/projet.ipynb` en `project/groupe-N.ipynb` et travaillez dedans ; n'oubliez pas le nom de l'équipe et ses membres dans la première cellule
+2. copiez `projet.ipynb` en `groupe-N.ipynb` et travaillez dedans ; n'oubliez pas le nom de l'équipe et ses membres dans la première cellule
 3. avant de rendre : **Kernel → Restart & Run All**, le notebook doit s'exécuter de bout en bout sans erreur
 4. commitez et poussez :
 
    ```bash
-   git add project/groupe-N.ipynb
+   git add groupe-N.ipynb
    git commit -m "groupe N"
    git push
    ```
