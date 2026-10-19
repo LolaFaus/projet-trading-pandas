@@ -4,7 +4,7 @@
 /wheel
 
 .ipynb_checkpoints/
-*.ipynb
+
 _build/
 .macnb/
 .vscode/
@@ -16,6 +16,7 @@ TPs/
 /jupyter
 .venv
 
-# le rendu du projet se fait en commitant le notebook
-!project/*.ipynb
+# seuls l'énoncé et les rendus sont versionnés, pas le corrigé
+!groupe-*.ipynb
 **/*.pyc
+corr*
