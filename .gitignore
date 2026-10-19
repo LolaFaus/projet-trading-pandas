@@ -1,0 +1,21 @@
+.DS_Store
+/pip
+/venv
+/wheel
+
+.ipynb_checkpoints/
+*.ipynb
+_build/
+.macnb/
+.vscode/
+hamlet.txt
+exos/
+scratch/
+TPs/
+
+/jupyter
+.venv
+
+# le rendu du projet se fait en commitant le notebook
+!project/*.ipynb
+**/*.pyc
